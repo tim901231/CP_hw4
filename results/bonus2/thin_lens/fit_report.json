@@ -1,0 +1,39 @@
+{
+  "model": "paper",
+  "units": "relative thin-lens depth in arbitrary 10-32 coordinates; NOT metric",
+  "psf": "disk",
+  "radius_max": 16,
+  "sigma": 3,
+  "shape": [
+    400,
+    700
+  ],
+  "success": true,
+  "solver_message": "`ftol` termination condition is satisfied.",
+  "parameters": {
+    "aperture": 566.9014136521968,
+    "focal_length": 0.3508708682793483,
+    "focus_distances": [
+      10.0,
+      10.41813131024845,
+      10.816096278951708,
+      11.414497192280562,
+      12.225179489816194,
+      12.61935690214101,
+      13.521982414645075,
+      14.568577090926162,
+      15.049796525493942,
+      16.418207000222683,
+      17.646605828323672,
+      19.351393627864493,
+      21.336669477124637,
+      23.64177655580054,
+      26.597875757369458,
+      32.0
+    ]
+  },
+  "weighted_blur_rmse_px": 0.41237197267234454,
+  "unweighted_blur_rmse_px": 1.786190105427883,
+  "depth_coverage": 1.0,
+  "seconds": 11.863276958
+}

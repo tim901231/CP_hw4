@@ -1,0 +1,29 @@
+# Caches, logs and intermediate images
+output/
+*.npy
+*.npz
+__pycache__/
+.DS_Store
+
+# Inputs: only my own (downsampled) captures are committed.
+# The chessboard lightfield comes with the homework ZIP; the raw NEF files, their
+# full-resolution decodes and scratch images stay local.
+data/*
+!data/own/
+
+# Capture sweeps written by capture/capture_stack.sh
+stack/
+
+# Assignment handout
+assgn4.pdf
+
+# LaTeX build files
+report/*.aux
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.synctex.gz
+
+# The compiled report is kept at the repository root (report.pdf)
+report/report.pdf
